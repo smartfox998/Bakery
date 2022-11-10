@@ -5,7 +5,8 @@ function BakeryItem(props) {
             <div>
                 <div className="description">
                     <h3>{props.item.name}</h3>
-                    <p>{props.item.description}</p>
+                    <p></p>
+                    <p>Description: {props.item.description}</p>
                 </div>
                 <div className="price">
                     <p>${props.item.price}</p>

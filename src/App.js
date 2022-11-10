@@ -42,10 +42,9 @@ function App() {
         </div>
 
         <div className='bakeryItems'>
-          <h3>this is the menu area</h3>
           <div className="bakeryItems">
-            {bakeryData.map((item, index) => ( // TODO: map bakeryData to BakeryItem components
-            <BakeryItem item={item} addToCart={addToCart} index={index}></BakeryItem> // replace with BakeryItem component
+            {bakeryData.map((item, index) => (
+            <BakeryItem item={item} addToCart={addToCart} index={index}></BakeryItem>
             ))}
           </div>
         </div>
