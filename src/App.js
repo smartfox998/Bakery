@@ -1,11 +1,56 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState } from "react";
+import bakeryData from "./assets/bakery-data.json";
+import BakeryItem from "./components/BakeryItem.js";
+
+bakeryData.forEach((item) => {
+  item.image = process.env.PUBLIC_URL + "/" + item.image;
+});
 
 function App() {
+  const [cart, setCart] = useState({items: {}, price: 0})
+
+  const addToCart = (index) => {
+    const item = bakeryData[index]
+    const name = item.name
+    const currentCart = cart.items
+
+    if (name in currentCart){
+      currentCart[name] += 1
+    }
+    else{
+      currentCart[name] = 1
+    }
+
+    const total = cart.price + item.price
+    setCart({items: currentCart, price: total})
+  }
+
+
   return (
     <div className="App">
-      <h1>ds</h1>
-      <img src={require('./title.png')} />
+      <div>
+        <img className='title' src={require('./title.png')} />
+      </div>
+
+      <div className='content'>
+        <div className='filter-area'>
+          <h3>this is the filter area</h3>
+          <p>filter-1</p>
+          <p>filter-2</p>
+          <p>filter-3</p>
+        </div>
+
+        <div className='bakeryItems'>
+          <h3>this is the menu area</h3>
+          <div className="bakeryItems">
+            {bakeryData.map((item, index) => ( // TODO: map bakeryData to BakeryItem components
+            <BakeryItem item={item} addToCart={addToCart} index={index}></BakeryItem> // replace with BakeryItem component
+            ))}
+          </div>
+        </div>
+
+      </div>
     </div>
   );
 }
