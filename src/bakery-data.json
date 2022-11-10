@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Cinnamon Apple Turnover",
+        "image": "images/Cinnamon Apple Turnover.png",
+        "price": 2.5,
+        "calories": 120,
+        "type": "Pastry",
+        "dietary restrictions": ["Nut-free"],
+        "popularity": 1,
+        "description": "Our famous apple turnovers are spiced with cinnamon and nutmeg, a perfect pastry for a cold day out."
+    },
+    {
+        "name": "Classic French Brioche",
+        "image": "images/Classic French Brioche.png",
+        "price": 13,
+        "calories": 1300,
+        "type": "Bread",
+        "dietary restrictions": ["Nut-free"],
+        "popularity": 1,
+        "description": "Deliciously crisp on the outside and buttery soft on the inside, our brioche loaves will be in an instant hit in your home."
+    },
+    {
+        "name": "Rosemary Ciabatta",
+        "image": "images/Rosemary Ciabatta.png",
+        "price": 4,
+        "calories": 1230,
+        "type": "Bread",
+        "dietary restrictions": ["Dairy-free", "Nut-free"],
+        "popularity": 1,
+        "description": "Our Rosemary Ciabatta is truly something special. Baked from a 150 year old recipe, it’ll be the star at your table anyday."
+    },
+    {
+        "name": "Coconut Macaroons",
+        "image": "images/Coconut Macaroons.png",
+        "price": 4,
+        "calories": 97,
+        "type": "Pastry",
+        "dietary restrictions": ["Dairy-free", "Nut-free"],
+        "popularity": 1,
+        "description": "It’s sweet and tastes like coconut. What more could you want? This gluten free treat is sold by the half-dozen."
+    },
+    {
+        "name": "Blueberry Pound Cake",
+        "image": "images/Blueberry Pound Cake.png",
+        "price": 26,
+        "calories": 930,
+        "type": "Cake",
+        "dietary restrictions": ["Nut-free"],
+        "popularity": 1,
+        "description": "A delightful seasonal gluten free pound cake with fresh blueberries baked in, perfect for a breakfast treat, afternoon snack, or delicious dessert."
+    },
+    {
+        "name": "Oatmeal Cookies",
+        "image": "images/Oatmeal Cookies.png",
+        "price": 2.5,
+        "calories": 80,
+        "type": "Pastry",
+        "dietary restrictions": ["Gluten-free"],
+        "popularity": 1,
+        "description": "Crispy on the outside and fantastically chewy on the inside, our gluten free oatmeal cookies are better than any chocolate chip cookie around!"
+    },
+    {
+        "name": "Orange Muffins",
+        "image": "images/Orange Muffins.png",
+        "price": 4.5,
+        "calories": 130,
+        "type": "Pastry",
+        "dietary restrictions": ["Nut-free"],
+        "popularity": 1,
+        "description": "Experience the delicate flavors of vanilla and citrus from fresh orange juice and zest! This muffin is going to blow you away!"
+    },
+    {
+        "name": "Apricot Cheesecake",
+        "image": "images/Apricot Cheesecake.png",
+        "price": 40,
+        "calories": 1300,
+        "type": "Cake",
+        "dietary restrictions": ["Nut-free", "Gluten-free"],
+        "popularity": 1,
+        "description": "Sweet-tart apricot jam is the perfect counterpoint to this gluten free cheesecake. Infused with Madagascar vanilla, this is a showstopper."
+    },
+    {
+        "name": "Maple pecan croissant",
+        "image": "images/Maple pecan croissant.png",
+        "price": 3.5,
+        "calories": 110,
+        "type": "Pastry",
+        "dietary restrictions": ["Dairy-free"],
+        "popularity": 1,
+        "description": "Completely sinful, buttery with a sweet surprising crunch. Our flagship product, these croissants are incredible at any time."
+    },
+    {
+        "name": "Pumpkin Pie",
+        "image": "images/Pumpkin Pie.png",
+        "price": 28,
+        "calories": 2400,
+        "type": "Pastry",
+        "dietary restrictions": ["Gluten-free", "Nut-free"],
+        "popularity": 1,
+        "description": "A rich, spicy gluten free pie that has a bright pumpkin flavor. This brings Fall right to your dining table."
+    },
+    {
+        "name": "Strawberry Shortcake",
+        "image": "images/Strawberry Shortcake.png",
+        "price": 37,
+        "calories": 1640,
+        "type": "Cake",
+        "dietary restrictions": ["Nut-free"],
+        "popularity": 1,
+        "description": "Made with perfectly fluffy and tender buttermilk biscuits, sweetened fresh strawberry slices and a rich, light as air whipped cream."
+    },
+    {
+        "name": "Croissant",
+        "image": "images/Croissant.png",
+        "price": 2.5,
+        "calories": 110,
+        "type": "Pastry",
+        "dietary restrictions": ["Nut-free"],
+        "popularity": 1,
+        "description": "Be captivated by the tantalizing scent of our freshly baked, buttery croissants. Seriously delicious and we'll have a fresh batch waiting for you at any time of the day."
+    }
+  ]
