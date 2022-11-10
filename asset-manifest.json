@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/Bakery/static/css/main.073c9b0a.css",
-    "main.js": "/Bakery/static/js/main.0b2e9dcd.js",
+    "main.css": "/Bakery/static/css/main.ec270dc9.css",
+    "main.js": "/Bakery/static/js/main.252f546e.js",
     "static/media/title.png": "/Bakery/static/media/title.f05dc7abb082de79ed45.png",
-    "static/media/logo.svg": "/Bakery/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Bakery/index.html",
-    "main.073c9b0a.css.map": "/Bakery/static/css/main.073c9b0a.css.map",
-    "main.0b2e9dcd.js.map": "/Bakery/static/js/main.0b2e9dcd.js.map"
+    "main.ec270dc9.css.map": "/Bakery/static/css/main.ec270dc9.css.map",
+    "main.252f546e.js.map": "/Bakery/static/js/main.252f546e.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.0b2e9dcd.js"
+    "static/css/main.ec270dc9.css",
+    "static/js/main.252f546e.js"
   ]
 }
