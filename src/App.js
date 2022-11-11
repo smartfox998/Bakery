@@ -26,6 +26,22 @@ function App() {
     setCart({items: currentCart, price: total})
   }
 
+  const removeFromCart = (index) => {
+    const item = bakeryData[index]
+    const name = item.name
+    const currentCart = cart.items
+
+    if (name in currentCart){
+      currentCart[name] -= 1
+      const total = cart.price - item.price
+      setCart({items: currentCart, price: total})
+
+      if (currentCart[name] == 0){
+        delete currentCart[name]
+      }
+    }
+  }
+
 
   return (
     <div className="App">
@@ -50,11 +66,9 @@ function App() {
         </div>
 
         <div className='bakeryItems'>
-          <div className="bakeryItems">
-            {bakeryData.map((item, index) => (
-            <BakeryItem item={item} addToCart={addToCart} index={index}></BakeryItem>
-            ))}
-          </div>
+          {bakeryData.map((item, index) => (
+          <BakeryItem item={item} addToCart={addToCart} removeFromCart={removeFromCart} count= {item.name in cart.items ? cart.items[item.name] : 0} index={index}></BakeryItem>
+          ))}
         </div>
 
       </div>

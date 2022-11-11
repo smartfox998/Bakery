@@ -59,12 +59,12 @@
     background-color: rgb(17, 95, 230);
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 25px;
+    margin: 4px 4px;
     cursor: pointer;
 }
 
@@ -73,8 +73,24 @@
     height: 14rem;
 }
 
-.price {
+.price-area {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.price-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price-buttons h3{
+  align-items: center;
+  text-align: center;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 1em;
+  margin-inline-end: 1em;
+  font-weight: bold;
 }
