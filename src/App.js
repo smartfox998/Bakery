@@ -35,10 +35,18 @@ function App() {
 
       <div className='content'>
         <div className='filter-area'>
-          <h3>this is the filter area</h3>
+          <h2>This is the filter area</h2>
           <p>filter-1</p>
           <p>filter-2</p>
           <p>filter-3</p>
+
+          <div className="cart">
+            <h2>Shopping Cart</h2>
+            {Object.keys(cart.items).map((key) => (
+              <p>{cart.items[key]}x {key}</p>
+            ))}
+            <p>Total: ${Math.round(cart.price * 100) / 100}</p>
+          </div>
         </div>
 
         <div className='bakeryItems'>
