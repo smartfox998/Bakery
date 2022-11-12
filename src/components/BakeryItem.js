@@ -13,9 +13,9 @@ function BakeryItem(props) {
                 <div className="price-area">
                     <h3 style={{fontWeight: "bold"}}>${props.item.price}</h3>
                     <div className="price-buttons">
-                        <button onClick={() => props.addToCart(props.index)}>+</button>
-                        <h3>{props.count}</h3>
                         <button onClick={() => props.removeFromCart(props.index)}>-</button>
+                        <h3>{props.count}</h3>
+                        <button onClick={() => props.addToCart(props.index)}>+</button>
                     </div>
                 </div>
             </div>
